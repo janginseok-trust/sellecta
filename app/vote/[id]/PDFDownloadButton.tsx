@@ -1,7 +1,7 @@
 'use client'
 
 import html2pdf from 'html2pdf.js'
-import { useIsPro } from 'hooks/useIsPro' // ✅ 절대경로 수정
+import { useIsPro } from '../../../hooks/useIsPro' // ✅ 상대경로로 확정 수정
 import { useRouter } from 'next/navigation'
 
 export default function PDFDownloadButton() {
